@@ -1,0 +1,52 @@
+body{
+    background-color: #ff9966;
+}
+h1{
+    font-family: cursive, sans-serif;
+}
+
+#container-1 {
+    text-align: justify;
+    font-size: larger;
+    font-family: "Averia Gruesa Libre";
+}
+
+#container-2 {
+    text-align: justify;
+    font-size: larger;
+    font-family: "Averia Gruesa Libre";
+}
+
+#container-3 {
+    text-align: justify;
+    font-size: larger;
+    font-family: "Averia Gruesa Libre";
+}
+
+#container-4 {
+    text-align: justify;
+    font-size: larger;
+    font-family: "Averia Gruesa Libre";
+}
+
+#container-5{
+    text-align: justify;
+    font-size: larger;
+    font-family: "Averia Gruesa Libre";
+}
+
+.button{
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    background-color: whitesmoke;
+    width: 250px;
+    height: 50px;
+    font-size: larger;
+    font-weight: bold;
+    font-family: "Averia Gruesa Libre";
+
+}
+.button:hover{
+    background-color: red;
+}

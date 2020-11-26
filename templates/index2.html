@@ -1,0 +1,97 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Quiz Time</title>
+    <link rel="stylesheet" href="{% static 'css/index2.css' %}">
+    <script src="{% static 'js/index2.js' %}"></script>
+    <link href='https://fonts.googleapis.com/css?family=Averia Gruesa Libre' rel='stylesheet'>
+
+</head>
+<body>
+
+    <h1> Welcome to the Quiz:</h1>
+
+    <hr>
+
+    <div id="container-1">
+        <p>Who is second richest person in the world?</p>
+        <br>
+        <input type="radio" value="elon musk" name="question0">elon musk<br>
+
+        <input type="radio" value="bill gates" name="question0">bill gates<br>
+
+        <input type="radio" value="jeff bezos" name="question0">jeff bezos<br>
+
+        <input type="radio" value="shahrukh khan" name="question0">shahrukh khan<br>
+
+    </div>
+
+    <hr>
+
+    <div id="container-2">
+
+        <p>When PayPal was formed?</p>
+        <input type="radio" value="2000" name="question1">2000<br>
+
+        <input type="radio" value="2001" name="question1">2001<br>
+
+        <input type="radio" value="1998" name="question1">1998<br>
+
+        <input type="radio" value="1996" name="question1">1996<br>
+
+    </div>
+
+    <hr>
+
+    <div id="container-3">
+
+        <p>What is hyperloop model?</p>
+        <input type="radio" value="Tejas is hyperloop model." name="question2">
+            Tejas is hyperloop model.<br>
+        <input type="radio" value="Hyperloop is magnetic levitated train which runs inside a long tube or pipe." name="question2">
+         Hyperloop is magnetic levitated train which runs inside a long tube or pipe.<br>
+        <input type="radio" value="A shape produced by a curve that bends round and crosses itself." name="question2">
+        A shape produced by a curve that bends round and crosses itself.<br>
+        <input type="radio" value="Hyper-V is Microsoft's hardware virtualization product. It lets you create and run a software version of a computer, called a virtual machine. Each virtual machine acts like a complete computer, running an operating system and programs." name="question2">
+        Hyper-V is Microsoft's hardware virtualization product. It lets you create and run a software version of a computer, called a virtual machine. Each virtual machine acts like a complete computer, running an operating system and programs.<br>
+    </div>
+
+    <hr>
+
+    <div id="container-4">
+        <p>Who is founder of Space-X and Blue Origin?</p>
+        <input type="radio" value="Sundar Pichai and Larry Page" name="question3">
+            Sundar Pichai and Larry Page<br>
+        <input type="radio" value="Marissa Mayer and Ginni Rometty" name="question3">
+            Marissa Mayer and Ginni Rometty<br>
+        <input type="radio" value="Elon Musk and Jeff Bezos" name="question3">
+         Elon Musk and Jeff Bezos<br>
+        <input type="radio" value="None of the above" name="question3">
+            None of the above
+    </div>
+
+    <hr>
+    <div id="container-5">
+        <p>Who is founder of SolarCity?</p>
+        <input type="radio" value="Mukesh Ambani" name="question4">
+                Mukesh Ambani<br>
+        <input type="radio" value="Narendra Modi" name="question4">
+                Narendra Modi<br>
+        <input type="radio" value="Joe Bidden" name="question4">
+                Joe Bidden<br>
+        <input type="radio" value="Elon Musk" name="question4">
+            Elon Musk
+    </div>
+
+<br>
+
+    <div>
+        <button class="button" onclick="returnScore()">View Result</button>
+    </div>
+</body>
+</html>
