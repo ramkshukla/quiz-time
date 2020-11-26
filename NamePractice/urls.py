@@ -21,3 +21,7 @@ urlpatterns = [
     #path('', include('my_app'))
     path('', views.fun, name="fun")
 ]
+from my_app import settings
+urlpatterns += patterns('',
+        (r'^static/(?P<path>.*)$', 'django.views.static.serve', {'document_root': settings.STATIC_ROOT}),
+    )
