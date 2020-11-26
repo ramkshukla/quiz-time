@@ -18,7 +18,6 @@ from django.urls import path, include
 from django.conf import settings
 from django.conf.urls.static import static
 from myapp import views
-from django.conf.urls import patterns, include, url
 urlpatterns = [
     path('admin/', admin.site.urls),
     #path('', include('my_app'))
