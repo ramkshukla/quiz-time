@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = '7awt_ae=g+jwsew00k29yu&+#&t-xx-$+lz2qq9y9_0py2&2x!'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['mighty-savannah-47843.herokuapp.com', '127.0.0.1']
 
